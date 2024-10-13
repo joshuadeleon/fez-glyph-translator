@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
-import { View, TextInput, StyleSheet, Text } from 'react-native';
-import Glyph from './glyph';
+import React from 'react';
+import { View, TextInput, StyleSheet } from 'react-native';
 
 export default function EnglishInput({ inputText, setInputText }) {
   return (

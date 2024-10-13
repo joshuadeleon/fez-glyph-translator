@@ -1,5 +1,4 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { StyleSheet, Image, View } from 'react-native';
 import ToEnglish from './toEnglish';
 import ToZuish from './toZuish';
 import Character from './character';

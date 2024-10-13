@@ -10,9 +10,7 @@ export default function ToZuish() {
   const clearText = () => setInputText('');
   return (
     <View style={styles.englishTab}>
-      {/* <EnglishInput inputText={inputText} setInputText={setInputText} /> */}
       <View style={styles.inputRow}>
-        {/* Input box to translate English */}
         <EnglishInput inputText={inputText} setInputText={setInputText} />
 
         {/* Clear Text Button */}

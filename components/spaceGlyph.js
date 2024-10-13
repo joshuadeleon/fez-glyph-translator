@@ -7,9 +7,9 @@ export default function SpaceGlyph() {
 
 const styles = StyleSheet.create({
   spaceGlyph: {
-    width: 40,                  // Width in React Native
-    height: 40,                 // Height in React Native
-    borderWidth: 5,             // Border thickness
-    borderColor: 'black',       // Border color
+    width: 40,
+    height: 40,
+    borderWidth: 5,
+    borderColor: 'black',
   },
 });

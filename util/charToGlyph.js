@@ -12,7 +12,6 @@ export const displayGlyph = (char) => {
   } else if (char.trim() === '') { // empty view if not letter / in mapping
     return <View style={{ width: 40, height: 40 }} />;
   } else {
-    // console.log('Not alpha,space');
     return null;
   }
 };

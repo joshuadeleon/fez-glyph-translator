@@ -5,7 +5,7 @@ import { displayGlyph } from "../util/charToGlyph";
 
 // Split input text into columns, one letter per image, grouped for vertical stacking
 const translatedColumns = (inputText) => inputText.split('').reduce((columns, letter, idx) => {
-  const columnIndex = Math.floor(idx / 10); // Assuming 10 letters per column
+  const columnIndex = Math.floor(idx / 10); // 10 letters per column
   if (!columns[columnIndex]) {
     columns[columnIndex] = [];
   }
@@ -39,16 +39,15 @@ export default function GlyphDisplay({ inputText }) {
 
 const styles = StyleSheet.create({
   scrollBoxContainer: {
-    width: 300,   // Set a fixed width to constrain the ScrollView's size
-    //height: 200,  // Optional: If you want to constrain the height as well
+    width: 300,
   },
   scrollView: {
-    width: '100%',  // Make the ScrollView take up the full width of its parent
+    width: '100%',
   },
   scrollContent: {
     flexDirection: 'row',
-    justifyContent: 'flex-end', // Align columns to the right
-    flexGrow: 1,  // Ensure content grows beyond the visible area
+    justifyContent: 'flex-end',
+    flexGrow: 1,
   },
   column: {
     flexDirection: 'column',
